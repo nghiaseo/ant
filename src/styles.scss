@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+.ant-menu-inline.ant-menu-sub{
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+.ant-menu-submenu-open{
+    .ant-menu-sub{
+        // height: 200px;
+    }
+}
+.ant-menu.ant-menu-dark .ant-menu-submenu-title .ant-menu-submenu-arrow,
+.ant-menu-dark .ant-menu-sub .ant-menu-submenu-title .ant-menu-submenu-arrow,
+.ant-menu.ant-menu-dark .ant-menu-sub .ant-menu-submenu-title .ant-menu-submenu-arrow {
+  
+  
+  
+}
+.ant-menu.ant-menu-dark.ant-menu-inline .ant-menu.ant-menu-inline.ant-menu-sub{
+    // transition: all 3s;
+}
